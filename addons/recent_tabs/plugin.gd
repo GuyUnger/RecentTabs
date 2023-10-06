@@ -32,7 +32,7 @@ func _enter_tree() -> void:
 	script_editor_menu.add_child(tab_bar)
 	script_editor_menu.move_child(tab_bar, -8)
 	
-	tab_bar.tab_close_display_policy = TabBar.CLOSE_BUTTON_SHOW_ALWAYS
+	tab_bar.tab_close_display_policy = TabBar.CLOSE_BUTTON_SHOW_ACTIVE_ONLY
 	tab_bar.tab_clicked.connect(_on_tab_pressed)
 	tab_bar.tab_close_pressed.connect(_on_tab_close_pressed)
 	#extension_popup.window_input.connect(_on_recent_submenu_window_input)
