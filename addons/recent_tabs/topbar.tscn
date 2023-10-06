@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://4w23kpx42m1p"]
+
+[node name="TopBar" type="TabBar"]
+offset_right = 40.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
